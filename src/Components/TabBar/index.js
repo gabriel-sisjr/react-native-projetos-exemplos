@@ -11,10 +11,10 @@ const Itens = {
         let txtLabel;
 
         if (rota.name === 'Home')
-            txtLabel = <Text style={[focado ? { color: 'white' } : null]}>Home</Text>
+            txtLabel = <Text style={[focado ? { color: 'white', marginBottom: '2%' } : { marginBottom: '2%' }]}>Home</Text>
 
         if (rota.name === 'Settings')
-            txtLabel = <Text style={[focado ? { color: 'white' } : null]}>Settings</Text>
+            txtLabel = <Text style={[focado ? { color: 'white', marginBottom: '2%' } : { marginBottom: '2%' }]}>Settings</Text>
 
         return txtLabel;
     },
@@ -23,11 +23,18 @@ const Itens = {
     iconeLabel: (rota) => {
         let icone;
 
-        if (rota.name === 'Home')
-            icone = <Icon name='info' color='white' />
+        switch (rota.name) {
+            case 'Home':
+                icone = <Icon name='info' color='white' />
+                break;
 
-        if (rota.name === 'Settings')
-            icone = <Icon name='settings' color='white' />
+            case 'Settings':
+                icone = <Icon name='settings' color='white' />
+                break;
+
+            default:
+                break;
+        }
 
         return icone;
     },
