@@ -7,6 +7,7 @@ A instalação é feita de maneira similar a versões anteriores da lib.
 Aqui está um link para a [documentação oficial](https://reactnavigation.org/docs/en/getting-started.html),
 
 O foco dessa aplicação é apenas **exemplificar** o uso da nova navegação do react-native.
+<!-- 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:
 
@@ -160,4 +161,5 @@ math should get its own line like so:
 $$I = \int \rho R^{2} dV$$
 
 And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc. 
+-->
