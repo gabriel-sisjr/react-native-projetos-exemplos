@@ -6,6 +6,9 @@ buildscript {
         minSdkVersion = 16
         compileSdkVersion = 28
         targetSdkVersion = 28
+
+        // Adicionar isso, p o mapa funcionar
+        supportLibVersion = "28.0.0"
     }
     repositories {
         google()
