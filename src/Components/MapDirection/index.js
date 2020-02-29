@@ -4,7 +4,7 @@ import { Marker } from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 
 // Key.
-const API_KEY = 'AIzaSyD4R5xs3zWZL4JHdUKajXkrcObZT8qZwCc';
+const API_KEY = 'API_KEY_AQUI';
 
 export default function MapDirection({ origem, destino, refMapView }) {
     const { width, height } = Dimensions.get('window');
